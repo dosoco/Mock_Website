@@ -1,0 +1,149 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    overflow-x: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 10px 0;
+    background-color: dodgerblue;
+    width: 100%;
+    line-height: 10px;
+}
+
+.main-header{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    
+}
+
+span{
+    color: red;
+}
+
+.controls-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    padding-bottom: 5px;
+}
+
+.control:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.sections-container{
+    background-color: rgb(192, 191, 191);
+    padding: 10px;
+}
+.sec-title{
+    background-color: dodgerblue;
+    padding: 0 10px;
+    border-left: 5px solid red;
+    box-shadow: 1px 1px 3px black;
+}
+.sec-title-header{
+    
+    
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+.sec-body-content{
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+}
+.einsteinone{
+    border: 2px solid dodgerblue;
+    box-shadow: 1px 1px 5px 1px black;
+}
+.einsteitwo{
+    width: 100%;
+    height: 95%;
+    border: 2px solid dodgerblue;
+    box-shadow: 1px 1px 5px 1px black;
+}
+p{
+    padding: 0 10px;
+}
+strong{
+    font-size: 1.5rem;
+}
+.secThreeImages{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+}
+.portImgs{
+    border: 3px solid dodgerblue;
+    margin-top: 20px;
+    box-shadow: 2px 2px 4px black;
+    
+}
+.portImgs:hover{
+    transition: all .4s ease-in-out;
+    transform: scale(105%);
+    
+    
+}
+video{
+    border: 3px solid dodgerblue;
+    box-shadow: 2px 2px 5px black;
+}
+.contact-info{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+input{
+    margin: 10px 0;
+}
+#messageInput{
+    height: 200px;
+}
+.message-reply{
+    background-color: dodgerblue;
+    color: white;
+    font-size: 2rem;
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: dodgerblue;
+    width: 100%;
+    padding: 5px 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+.img{
+    display: grid;
+    grid-template-columns:repeat(2, auto);
+}
+
+.active{
+    color: red;
+}
+
+.hide{
+    display: none;
+}
+
